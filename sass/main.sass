@@ -27,6 +27,9 @@ body
 			&:required:valid
 				border-color: green
 
+a
+	color: #444
+
 .img-responsive
 	display: block
 	max-width: 100%
@@ -34,6 +37,38 @@ body
 
 .text-center
 	text-align: center
+
+.title
+	font-weight: 200
+	span
+		font-weight: 400
+
+.topmenu
+	ul 
+		list-style-type: none
+		margin: 0
+		padding: 0
+		display: flex
+		li
+			a
+				display: block
+				padding: 5px 15px
+				justify-content: space-around
+			&:first-child a
+				padding-left: 0
+			&:last-child a
+				padding-right: 0
+
+.block-wrap
+	display: flex
+	flex-wrap: wrap
+	gap: 3px
+
+	.block
+		background-color: $accent
+		width: 270px
+		height: 270px
+		border-radius: 10px
 
 
 @import "media" // Always at the end
