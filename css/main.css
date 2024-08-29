@@ -1933,11 +1933,18 @@ a {
 .title {
   font-weight: 200;
   font-size: 48px;
+  line-height: 48px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 .title span {
   font-weight: 400;
 }
 
+.topmenu {
+  margin-bottom: 15px;
+}
 .topmenu ul {
   list-style-type: none;
   margin: 0;
