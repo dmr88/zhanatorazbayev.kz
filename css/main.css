@@ -1968,10 +1968,53 @@ a {
   width: 270px;
   height: 270px;
   border-radius: 10px;
+  overflow: hidden;
+}
+.block-wrap .text-wrap {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px;
+  height: 100%;
+}
+.block-wrap .text-wrap p {
+  font-size: 21px;
+}
+.block-wrap .text-wrap .title {
+  font-size: 41px;
+  text-align: center;
+}
+.block-wrap .text-wrap .btn {
+  margin-left: auto;
+}
+.block-wrap .block-footer {
+  text-align: center;
+  padding: 25px 0;
+  width: 100%;
 }
 
 .page-wrap {
   min-width: 820px;
+}
+.page-wrap .block-wrap {
+  margin: 15px 0;
+}
+.page-wrap .block-wrap .block {
+  border-radius: 0;
+}
+.page-wrap .block-wrap .block:first-child {
+  border-top-left-radius: 10px;
+}
+.page-wrap .block-wrap .block:nth-child(3) {
+  border-top-right-radius: 10px;
+}
+.page-wrap .block-wrap .block:nth-child(7) {
+  border-bottom-left-radius: 10px;
+}
+.page-wrap .block-wrap .block:nth-child(9) {
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
 }
 
 .img-wrap img {
@@ -1991,6 +2034,23 @@ a {
 .page-footer {
   text-align: center;
   margin-top: 15px;
+}
+
+.btn-dwn {
+  background-image: url("../img/icon-dwn.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+.color-1 .block {
+  background-color: #7C8F9E;
+}
+
+.color-2 .block {
+  background-color: #2E3740;
 }
 
 /*==========  Desktop First  ==========*/

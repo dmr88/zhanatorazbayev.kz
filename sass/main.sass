@@ -72,9 +72,42 @@ a
 		width: 270px
 		height: 270px
 		border-radius: 10px
+		overflow: hidden
+	.text-wrap
+		color: #fff
+		display: flex
+		justify-content: space-between
+		flex-direction: column
+		padding: 15px
+		height: 100%
+		p
+			font-size: 21px
+		.title
+			font-size: 41px
+			text-align: center
+		.btn
+			margin-left: auto
+	.block-footer
+		text-align: center
+		padding: 25px 0
+		width: 100%
 
 .page-wrap
 	min-width: 820px
+	.block-wrap
+		margin: 15px 0
+		.block
+			border-radius: 0
+			&:first-child
+				border-top-left-radius: 10px
+			&:nth-child(3)
+				border-top-right-radius: 10px
+			&:nth-child(7)
+				border-bottom-left-radius: 10px
+			&:nth-child(9)
+				border-bottom-right-radius: 10px
+				overflow: hidden
+
 .img-wrap
 	img
 		width: 100%
@@ -91,6 +124,18 @@ a
 	text-align: center
 	margin-top: 15px
 
+.btn-dwn
+	background-image: url('../img/icon-dwn.svg')
+	background-repeat: no-repeat
+	background-size: cover
+	width: 25px
+	height: 25px
+	display: block
+
+.color-1 .block
+	background-color: #7C8F9E
+.color-2 .block
+	background-color: #2E3740
 
 
 @import "media" // Always at the end
