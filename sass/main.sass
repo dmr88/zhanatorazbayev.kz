@@ -58,6 +58,9 @@ a
 				padding-left: 0
 			&:last-child a
 				padding-right: 0
+			&.active
+				a
+					color: #0D84A9
 
 .block-wrap
 	display: flex
@@ -69,6 +72,25 @@ a
 		width: 270px
 		height: 270px
 		border-radius: 10px
+
+.page-wrap
+	min-width: 820px
+.img-wrap
+	img
+		width: 100%
+
+.about
+	display: flex
+	flex-direction: row
+	flex: 1
+	gap: 15px
+	.content, .img-wrap
+		width: 50%
+
+.page-footer
+	text-align: center
+	margin-top: 15px
+
 
 
 @import "media" // Always at the end

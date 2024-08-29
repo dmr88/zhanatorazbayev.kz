@@ -1954,6 +1954,9 @@ a {
 .topmenu ul li:last-child a {
   padding-right: 0;
 }
+.topmenu ul li.active a {
+  color: #0D84A9;
+}
 
 .block-wrap {
   display: flex;
@@ -1965,6 +1968,29 @@ a {
   width: 270px;
   height: 270px;
   border-radius: 10px;
+}
+
+.page-wrap {
+  min-width: 820px;
+}
+
+.img-wrap img {
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 15px;
+}
+.about .content, .about .img-wrap {
+  width: 50%;
+}
+
+.page-footer {
+  text-align: center;
+  margin-top: 15px;
 }
 
 /*==========  Desktop First  ==========*/
